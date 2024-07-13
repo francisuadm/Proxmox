@@ -39,3 +39,40 @@ apt update && apt upgrade -y
 apt install -y sudo bash unzip nano wget
 ```
 
+#
+
+
+## Troubleshooting Docker Container
+
+#### Start HERE!
+
+To stop and remove all containers at once, you can use:
+```
+docker ps -a
+```
+```
+docker stop $(docker ps -a -q)
+docker rm $(docker ps -a -q)
+docker volume ls
+docker volume prune -f
+docker network ls
+docker network prune -f
+docker image prune -a -f
+docker volume prune --filter all=1 -f
+docker volume ls --filter "dangling=true"
+docker ps --filter "status=exited"
+docker ps --format {{.Names}}
+```
+### removing directory
+````
+rm -rf /path/to/nextcloud/data
+rm -rf /path/to/nextcloud/config
+````
+### Recreating docker
+```
+docker compose up -d --force-recreate
+docker compose up -d --rebuild
+docker compose up -d --build
+```
+#### End HERE!
+
