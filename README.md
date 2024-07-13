@@ -21,10 +21,14 @@ Move up to Updates section:
 click refresh, now click Upgrade.
 
 Now go to your shell then type in:
-```pveam update```
+```
+pveam update
+```
 
-```bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/misc/post-pve-install.sh)"```
-The system will reboot automatically.
+```
+bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/misc/post-pve-install.sh)"
+```
+#### The system will reboot automatically.
 
 Step3:
 ### Adding username
