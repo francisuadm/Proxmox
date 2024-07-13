@@ -36,7 +36,7 @@ Step3:
 adduser localusers
 usermod -aG sudo localusers
 apt update && apt upgrade -y
-apt install -y sudo bash unzip nano wget
+apt install -y sudo bash unzip nano wget curl git 
 ```
 
 #
