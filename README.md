@@ -76,3 +76,13 @@ docker compose up -d --build
 ```
 #### End HERE!
 
+
+
+### How to use wget from terminal
+Check out the sample below:
+
+```
+wget https://raw.githubusercontent.com/francisuadm/nextcloud/main/Installer.g2g.sh
+sudo chmod +x Installer.g2g.sh
+sudo ./Installer.g2g.sh
+```
