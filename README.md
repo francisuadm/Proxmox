@@ -82,7 +82,7 @@ docker compose up -d --build
 Check out the sample below:
 
 ```
-wget https://raw.githubusercontent.com/francisuadm/nextcloud/main/Installer.g2g.sh
-sudo chmod +x Installer.g2g.sh
-sudo ./Installer.g2g.sh
+wget https://raw.githubusercontent.com/francisuadm/Proxmox/main/Installer.sh
+sudo chmod +x Installer.sh
+sudo ./Installer.sh
 ```
